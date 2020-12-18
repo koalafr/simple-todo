@@ -1,0 +1,59 @@
+html {
+  background-color: #2b2b2b;
+  color: #2b2b2b;
+  font-family: "Gotham", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+div#container {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+input#input {
+    width: 50%;
+    height: 42px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgba(128, 255, 0, 0.1);
+}
+a.doneBtn {
+    flex-grow: 1;
+}
+p.todoText {
+    flex-grow: 1;
+}
+a.closeBtn {
+    flex-grow: 1;
+}
+
+.checked {
+    /*text-decoration: line-through;*/
+    background-color:  #2b2b2b88;
+    color: #f1f1f1;
+}
