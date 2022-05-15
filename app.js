@@ -5,7 +5,7 @@ const input = document.getElementById("input");
 
 // Execute a function when the user releases a key on the keyboard
 input.addEventListener("keyup", function (event) {
-  // Number 13 is the "Enter" key on the keyboard
+  // Number 13 is the "Enter" key on the keyboard # TODO: fix deprecation
   if (event.keyCode === 13) {
     // Cancel the default action, if needed
     event.preventDefault();
