@@ -13,3 +13,7 @@ Dismiss a task by clicking on the **X**
 - Type in a task
 
 - Press Enter
+
+# Screenshot
+
+![ScreenShot](https://user-images.githubusercontent.com/73606252/168486176-719ede95-5d6e-4d69-a12a-c89458b456af.png)
